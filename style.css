@@ -14,12 +14,13 @@ header{
     width: 100%;
     text-align: end;
     padding: 0 5%;
+    height: 10vh;
 }
 
 header h1{
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 30px;
     line-height: 56px;
     font-family: sans-serif;
     margin-bottom: 20px;
@@ -29,27 +30,32 @@ header h1{
 header p{
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 10px;
     font-family: sans-serif;
     margin-left: 30%;
     color: #FFFFFF;
 }
 
 main{
-    width: 30%;
-    margin: auto;
-    min-height: 300px;
+    height: 88vh;
+    display: grid;
+    align-items: center
 }
 
-main h1{
+form{
+    width: 40%;
+    margin: auto;
+    height: 300px;
+}
+
+form h1{
     display: inline;
     font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 64px;
-    line-height: 75px;
-    margin-bottom: 30px;
+    font-size: 40px;
+    line-height: 15px;
     color: #000000;
     border-bottom: 7px solid  #3AC5CD 
 }
@@ -63,32 +69,34 @@ input{
     margin: 15px 0;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 input::placeholder {
     color: white
 }
 
-main p a{
+form p{
+    text-align: center;
+}
+
+form p a{
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 21px;
-    float: right;
     color: #FFFFFF;
     cursor: pointer;
     margin-bottom: 50px;
 }
 
-main button{
+form button{
     border: 5px solid rgba(44, 221, 210, 0.79);
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 12px;
+    font-size: 17px;
+    line-height: 10px;
     cursor: pointer;
     color: #FFFFFF;
     background: none;
@@ -101,13 +109,13 @@ main button{
     
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 21px;
-    margin: 40px;
+    margin: 40px 0;
     color: #FFFFFF;
+    text-align: left;
 }
 
 .acc a{
-    float: none;
     cursor: pointer;
 }
