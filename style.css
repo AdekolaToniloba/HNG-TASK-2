@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(180deg, rgba(44, 221, 210, 0.79) 0%, rgba(145, 31, 173, 0.92) 100%), url(annie-spratt-wuc-KEIBrdE-unsplash.png);
+    background: linear-gradient(180deg, rgba(44, 221, 210, 0.79) 20%, rgba(145, 31, 173, 0.92) 100%), url(annie-spratt-wuc-KEIBrdE-unsplash.png);
     background-size: cover;
-    height: 98vh;
+    height: 100vh;
     font-family: sans-serif;
 }
 
@@ -58,8 +58,26 @@ form h1{
     line-height: 15px;
     color: #000000;
     border-bottom: 7px solid  #3AC5CD 
+} h2{
+    display: inline;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 15px;
+    color: #000000;
+    border-bottom: 7px solid  #3AC5CD 
 }
-
+ h4{
+  
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15px;
+    color: #000000;
+  
+}
 input{
     background: transparent;
     color: #fff;
@@ -91,6 +109,22 @@ form p a{
     margin-bottom: 50px;
 }
 
+label{
+     display: block;
+  position: relative
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    color: #000000;
+    cursor: pointer;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+}
+
+
 form button{
     border: 5px solid rgba(44, 221, 210, 0.79);
     font-style: normal;
@@ -102,7 +136,8 @@ form button{
     background: none;
     padding: 10px;
     margin: 20px 0;
-    width: 200px;
+    width: 260px;
+
 }
 
 .acc{
@@ -114,6 +149,7 @@ form button{
     margin: 40px 0;
     color: #FFFFFF;
     text-align: left;
+
 }
 
 .acc a{
